@@ -1,0 +1,52 @@
+Questions
+
+1. Provide a summary for the number of books issued on each day of the week.  
+SAMPLE [
+   Day         Issues_made
+  Monday           8
+ Tuesday           7
+ Wednesday         8
+ Thursday          4
+]
+
+
+2. Provide a summary for quantitative change taking place in the library inventory
+for the month of March'22
+SAMPLE [
+Date            Issued     Returned   Books_in_issue   
+01-03-2022        1           0            14
+03-03-2022        0           1            13
+08-03-2022        1           1            13
+]
+
+
+3. Provide the member ids and names of member who have penalty charges in arrears
+and also calculate the amount. Late charges are calculated as ₹10 for each day after
+the due date.
+SAMPLE [
+Member ID     Name       Amount Due
+    2         Arush          20
+    5        Sankalp         40
+    7         Rishab         30
+]
+
+
+4. Find the Longest durations for which a member had a book issued with them. 
+These durations can span over mutiple issues, given the member issues a book the
+same day he/she returns another.  
+SAMPLE [
+Member ID    Start_Date      End_Date     Days
+    2        2022-03-12     2022-04-08     27
+    4        2022-02-16     2022-02-16     22
+    1        2022-02-25     2022-03-17     20
+]
+
+
+5. Find the Number of Issues per Books for each Author rounded to the nearest hundredth
+SAMPLE [
+Author_id    Author_name      Issues_per_book    
+   1           Dan                1.00
+   2           Nicolas            2.00
+   3           Mahatria           2.00
+   4           Agatha             2.11
+]
