@@ -31,7 +31,7 @@ Member ID     Name       Amount Due
 ]
 
 
-4. Find the Longest durations for which a member had a book issued with them. 
+4. Find the Three Longest durations for which a member had a book issued with them. 
 These durations can span over mutiple issues, given the member issues a book the
 same day he/she returns another.  
 SAMPLE [
